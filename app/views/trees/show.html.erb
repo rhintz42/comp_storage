@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @tree.title %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @tree.picture %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @tree.tree_type %>
+</p>
+
+<%= link_to 'Edit', edit_tree_path(@tree) %> |
+<%= link_to 'Back', trees_path %>
